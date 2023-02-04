@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com" />
+    <title>decodificador</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo-alura.svg" />
+    </header>
+    <main>
+      <section id="input">
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="18"
+          placeholder="Digite seu Texto"
+        ></textarea>
+        <h6>Apenas letras minúsculas e sem acentuação</h6>
+        <button class="btCrip" onclick="criptografar()">criptografar</button>
+        <button class="btDescript" onclick="descriptografar()">
+          descriptografar
+        </button>
+      </section>
+      <section id="output">
+        <img src="./images/figura.svg" />
+        <div>
+          <h2>Nenhuma mensagem encontrada</h2>
+          <p>
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+  <footer>
+    <p>Desenvolvido por Rosiane Aparecida da Silva.</p>
+  </footer>
+</html>
